@@ -59,11 +59,16 @@ h1{
   
 }
 
-h3{
+.footer1 h3{
     font-size: 1.5em;
 }
 
 ul {
     list-style: none;
     padding: 0;
+}
+
+.footer2 p{
+    max-width: 50%;
+    text-align: right;
 }
