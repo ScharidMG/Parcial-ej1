@@ -1,6 +1,6 @@
 body {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 /* main con aside*/
@@ -11,11 +11,17 @@ body {
 /*los footers */
 .footer-container {
   display: flex;
+  height: 80px; 
+
 }
 
 header {
   min-height: 120px;
   background: blueviolet;
+
+  display: flex;
+  align-items: center;
+   
 }
 
 main {
@@ -30,10 +36,6 @@ aside {
   background: #ddd;
 }
 
-footer {
-  height: 80px; /* altura fija */
-}
-
 .footer1 {
   flex: 1;
   background: blueviolet;
@@ -42,4 +44,14 @@ footer {
 .footer2 {
   flex: 1;
   background: pink;
+}
+
+.logazo{
+    height: 80px;
+    width: 80px;
+}
+
+h1{
+    size: 2.5em;
+  
 }
