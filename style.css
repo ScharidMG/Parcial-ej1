@@ -1,5 +1,5 @@
 body {
-  max-width: 1200 px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -129,6 +129,28 @@ aside h3 {
 .enlaces a {
   text-decoration: none;
 }
+
+/* Ocultamos por defecto el botón */
+.ver-mas {
+  display: none;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Versión para móviles */
+@media (max-width: 768px) {
+  .noticias .segunda, .noticias .tercera {
+    display: none;
+  }
+
+  .ver-mas {
+    display: block;
+  }
+}
+
 
 
 
