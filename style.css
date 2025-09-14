@@ -1,0 +1,45 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* main con aside*/
+.contenido {
+  display: flex;
+}
+
+/*los footers */
+.footer-container {
+  display: flex;
+}
+
+header {
+  min-height: 120px;
+  background: blueviolet;
+}
+
+main {
+  flex: 3; /* 3/4 */
+  background: aqua;
+}
+
+aside {
+  flex: 1;          /* 1/4 */
+  min-width: 200px;
+  min-height: 400px;
+  background: #ddd;
+}
+
+footer {
+  height: 80px; /* altura fija */
+}
+
+.footer1 {
+  flex: 1;
+  background: blueviolet;
+}
+
+.footer2 {
+  flex: 1;
+  background: pink;
+}
