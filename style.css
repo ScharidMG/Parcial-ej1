@@ -1,6 +1,5 @@
 body {
-  max-width: 12000
-ypx;
+  max-width: 1200 px;
   margin: auto;
 }
 
@@ -28,6 +27,8 @@ header {
 
 main {
   flex: 3; /* 3/4 */
+  padding: 5px 5px 10px 5px;
+  
   background: aqua;
 }
 
@@ -72,3 +73,25 @@ ul {
     max-width: 50%;
     text-align: right;
 }
+
+h2{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.cont{
+    display: flex;
+    gap: 5px; /* separación entre imagen y texto */
+}
+
+.cont p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.noticias{
+    display: flex;
+    gap: 5px;
+    
+}
+
